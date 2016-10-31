@@ -1,0 +1,5 @@
+To build an executable, run
+% mvn clean compile assembly:single package
+This will create 2 jars in the target directory.  One contains only
+the java code, and the other also contains all the dependencies.
+
